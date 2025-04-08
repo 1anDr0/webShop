@@ -1,11 +1,20 @@
 import CategoriesDropdown from './CategoriesDropdown';
 import SearchInput from './SearchInput';
+import { useCart } from "../../context/CartContext";
+
 import { BiUser, BiShoppingBag } from "react-icons/bi";
+
 import { NavLink } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+   
+  const { cartItems } = useCart();
+  const cartCount = cartItems.length;
+
+
   return (
-    <nav className="flex justify-between items-center px-8 py-0 border-b mb-1">
+    <nav className="flex justify-between items-center px-8 border-b mb-1">
       <div className="flex-1">
         <NavLink to="/" className="text-xl font-bold">TECHFLOW</NavLink>
       </div>
@@ -21,7 +30,18 @@ const Navbar = () => {
       <ul className="flex-1 flex justify-end gap-6 text-xl">
         <SearchInput />
         <li><BiUser /></li>
-        <li><BiShoppingBag /></li>
+        <li className="relative">
+
+  <Link to="/cart">
+    <BiShoppingBag className="text-2xl hover:opacity-70" />
+    {cartCount > 0 && (
+      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+        {cartCount}
+      </span>
+    )}
+  </Link>
+</li>
+
       </ul>
     </nav>
   );

@@ -1,7 +1,14 @@
 import { BiShoppingBag } from "react-icons/bi";
+
 import { Link } from "react-router-dom";
 
+import { useCart } from "../context/CartContext";
+
+
 const ProductCard = ({ product }) => {
+
+  const { addToCart } = useCart();
+
   return (
     <div className="bg-white w-full h-[380px] rounded-xl shadow-md p-4 flex flex-col justify-between hover:shadow-lg transition">
 
@@ -10,7 +17,7 @@ const ProductCard = ({ product }) => {
         <img
           src={product.image}
           alt={product.title}
-          className="w-full h-[200px] object-contain mb-6 mt-4 p-4"
+          className="w-full h-[200px] object-contain mb-8 mt-4 p-4"
         />
       </Link>
 
@@ -25,10 +32,14 @@ const ProductCard = ({ product }) => {
           {product.price.toLocaleString()} kr
         </div>
         <button
-          className="p-2 rounded-full hover:bg-gray-100 transition"
+          className="p-2 rounded-full hover:text-brandgold transition"
           aria-label="Lägg till i varukorg"
-        >
-          <BiShoppingBag size={20} />
+          onClick={(e) => {
+            e.preventDefault(); // Stoppar Link från att triggas
+            addToCart(product); // Lägg till i context
+          }}
+          >
+          <BiShoppingBag size={24} />
         </button>
       </div>
     </div>

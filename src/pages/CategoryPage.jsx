@@ -35,7 +35,7 @@ const CategoryPage = () => {
   </div>
 
   {/* KORT – egen ljusgrå bakgrund som täcker hela sidan horisontellt */}
-  <div className="bg-[#f6f6f6] w-full py-12">
+  <div className="bg-lightgrey w-full py-12">
     <div className="max-w-7xl mx-auto px-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {filtered.map((product) => (
