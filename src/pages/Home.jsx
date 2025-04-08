@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Home() {
   return (
@@ -6,7 +6,7 @@ function Home() {
       {/* Bakgrundsbilden */}
       <img src="/webShop-bakground.png" alt="Background" className="w-full object-cover" />
     
-      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-start px-10">
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center px-10">
       <h1 className="text-6xl font-bold text-white mb-6 drop-shadow-lg">
         Expert på smarta hem i Sverige</h1>
 

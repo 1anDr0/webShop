@@ -1,9 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
+
 import { BiSearch } from "react-icons/bi";
 
 const SearchInput = () => {
   const [showSearch, setShowSearch] = useState(false);
   const inputRef = useRef(null);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (showSearch) inputRef.current?.focus();
@@ -17,11 +21,15 @@ const SearchInput = () => {
           type="text"
           placeholder="Sök produkter..."
           className="border-b border-black focus:outline-none px-2 py-1 transition"
-          onBlur={() => setShowSearch(false)}
+          onBlur={() => setShowSearch(false)} //stängs när man klickar utanför
           onKeyDown={(e) => {
             if (e.key === "Enter") {
-              console.log("Söker efter:", e.target.value);
-              setShowSearch(false);
+              const query = e.target.value.trim();
+              if (query) {
+                navigate(`/search?q=${encodeURIComponent(query)}`)
+              }
+            
+              setShowSearch(true);
             }
           }}
         />

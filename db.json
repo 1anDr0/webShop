@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Roam 2",
+      "description": "Bärbar smart högtalare",
+      "price": 2195,
+      "info": "Roam 2 är otroligt lätt, tålig och kraftfull...",
+      "more": "Kom ännu närmare allt du lyssnar på med kristallklart och rymligt ljud...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "bärbar",
+        "bluetooth",
+        "wifi",
+        "utomhus",
+        "vattentålig"
+      ],
+      "room": "utomhus",
+      "searchableText": "sonos roam 2 bärbar högtalare smart bluetooth wifi vattentålig utomhus",
+      "image": "/roam.png"
+    },
+    {
+      "id": 2,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Era 100",
+      "description": "Smart högtalare",
+      "price": 2799,
+      "info": "Era 100 har den senaste akustiken...",
+      "more": "Kom ännu närmare allt du lyssnar på...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "wifi",
+        "bluetooth",
+        "stereo",
+        "kompakt"
+      ],
+      "room": "vardagsrum",
+      "searchableText": "sonos era 100 högtalare smart wifi bluetooth kompakt stereo vardagsrum",
+      "image": "/era100.png"
+    },
+    {
+      "id": 3,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Era 300",
+      "description": "En förstklassig smart högtalare",
+      "price": 5999,
+      "info": "Med Era 300 får du förstklassigt ljud från alla håll...",
+      "more": "Kom ännu närmare allt du lyssnar på...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "wifi",
+        "bluetooth",
+        "dolby atmos",
+        "surround"
+      ],
+      "room": "vardagsrum",
+      "searchableText": "sonos era 300 högtalare dolby atmos smart wifi bluetooth surround ljud vardagsrum",
+      "image": "/era300.png"
+    },
+    {
+      "id": 4,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Move 2",
+      "description": "En bärbar smart högtalare",
+      "price": 5499,
+      "info": "Vår kraftfullaste bärbara högtalare...",
+      "more": "Anslut till önskat ljudinnehåll via Wi-Fi och Bluetooth...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "bärbar",
+        "wifi",
+        "bluetooth",
+        "stereo",
+        "utomhus"
+      ],
+      "room": "utomhus",
+      "searchableText": "sonos move 2 bärbar högtalare wifi bluetooth stereo utomhus batteri",
+      "image": "/move2.png"
+    },
+    {
+      "id": 5,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Five",
+      "description": "En förstklassig högtalare",
+      "price": 7499,
+      "info": "Five är utformad för att ge förstklassigt ljud...",
+      "more": "Uppfatta varenda ton och känn vartenda trumslag...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "wifi",
+        "stereo",
+        "bas",
+        "aux",
+        "vinyl"
+      ],
+      "room": "vardagsrum",
+      "searchableText": "sonos five högtalare stereo bas wifi vinyl aux vardagsrum",
+      "image": "/five.png"
+    },
+    {
+      "id": 6,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Ace",
+      "description": "Hörlurar",
+      "price": 4699,
+      "info": "Omsorgsfullt designade och mästerligt justerade...",
+      "more": "Upplev varje frekvens med överlägsen precision...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "bluetooth",
+        "usb-c",
+        "3.5mm",
+        "brusreducering",
+        "lossless"
+      ],
+      "room": "på språng",
+      "searchableText": "sonos ace hörlurar bluetooth usb-c 3.5mm lossless brusreducering",
+      "image": "/ace.png"
+    },
+    {
+      "id": 7,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Arc",
+      "description": "En förstklassig smart soundbar",
+      "price": 8399,
+      "info": "Ge underhållningen liv med rymligt ljud med Dolby Atmos...",
+      "more": "Arc är enkel att installera och använda...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "dolby atmos",
+        "wifi",
+        "hdmi",
+        "tv",
+        "surround"
+      ],
+      "room": "vardagsrum",
+      "searchableText": "sonos arc soundbar dolby atmos wifi surround tv hdmi vardagsrum",
+      "image": "/arc.png"
+    },
+    {
+      "id": 8,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Beam",
+      "description": "Smart soundbar",
+      "price": 5499,
+      "info": "Förhöj din underhållning med detaljrikt ljud...",
+      "more": "Upplev kristallklart tal och virtuell surround...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "dolby atmos",
+        "wifi",
+        "kompakt",
+        "tv",
+        "surround"
+      ],
+      "room": "vardagsrum",
+      "searchableText": "sonos beam soundbar dolby atmos kompakt wifi tv surround vardagsrum",
+      "image": "/beam.png"
+    },
+    {
+      "id": 9,
+      "brand": "Sonos",
+      "brandIcon": "sonos",
+      "title": "Sub",
+      "description": "Förstklassig trådlös subwoofer",
+      "price": 9999,
+      "info": "Sub frigör Sonosljudets fulla kraft...",
+      "more": "Anslut Sub till en soundbar eller högtalare...",
+      "inStock": true,
+      "category": ["Underhållning", "Högtalare"],
+      "tags": [
+        "subwoofer",
+        "wifi",
+        "trådlös",
+        "djup bas",
+        "hemmabio"
+      ],
+      "room": "vardagsrum",
+      "searchableText": "sonos sub subwoofer trådlös wifi djup bas hemmabio vardagsrum",
+      "image": "/sub.png"
+    }
+  ],
+  "users": [],
+  "orders": []
+}
