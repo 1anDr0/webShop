@@ -13,8 +13,23 @@ const RegForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    
+    const newUser = {
+      firstName,
+      lastName,
+      email,
+      password
+    };
 
-    console.log({firstName, lastName, email, password})
+    fetch("http://localhost:3001/users", { 
+       method: 'POST',
+       header: {'Content-Type':'application/json'}, //skickar json till servern
+       body: JSON.stringify(newUser)
+      }) .then(() => {
+        console.log('ny user');
+      })
+     
+    
   }
 
 

@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Roam 2",
@@ -10,7 +10,11 @@
       "info": "Roam 2 är otroligt lätt, tålig och kraftfull...",
       "more": "Kom ännu närmare allt du lyssnar på med kristallklart och rymligt ljud...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "bärbar",
         "bluetooth",
@@ -23,7 +27,7 @@
       "image": "/roam.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Era 100",
@@ -32,7 +36,11 @@
       "info": "Era 100 har den senaste akustiken...",
       "more": "Kom ännu närmare allt du lyssnar på...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "wifi",
         "bluetooth",
@@ -44,7 +52,7 @@
       "image": "/era100.png"
     },
     {
-      "id": 3,
+      "id": "3",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Era 300",
@@ -53,7 +61,11 @@
       "info": "Med Era 300 får du förstklassigt ljud från alla håll...",
       "more": "Kom ännu närmare allt du lyssnar på...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "wifi",
         "bluetooth",
@@ -65,7 +77,7 @@
       "image": "/era300.png"
     },
     {
-      "id": 4,
+      "id": "4",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Move 2",
@@ -74,7 +86,11 @@
       "info": "Vår kraftfullaste bärbara högtalare...",
       "more": "Anslut till önskat ljudinnehåll via Wi-Fi och Bluetooth...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "bärbar",
         "wifi",
@@ -87,7 +103,7 @@
       "image": "/move2.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Five",
@@ -96,7 +112,11 @@
       "info": "Five är utformad för att ge förstklassigt ljud...",
       "more": "Uppfatta varenda ton och känn vartenda trumslag...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "wifi",
         "stereo",
@@ -109,7 +129,7 @@
       "image": "/five.png"
     },
     {
-      "id": 6,
+      "id": "6",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Ace",
@@ -118,7 +138,11 @@
       "info": "Omsorgsfullt designade och mästerligt justerade...",
       "more": "Upplev varje frekvens med överlägsen precision...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "bluetooth",
         "usb-c",
@@ -131,7 +155,7 @@
       "image": "/ace.png"
     },
     {
-      "id": 7,
+      "id": "7",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Arc",
@@ -140,7 +164,11 @@
       "info": "Ge underhållningen liv med rymligt ljud med Dolby Atmos...",
       "more": "Arc är enkel att installera och använda...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "dolby atmos",
         "wifi",
@@ -153,7 +181,7 @@
       "image": "/arc.png"
     },
     {
-      "id": 8,
+      "id": "8",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Beam",
@@ -162,7 +190,11 @@
       "info": "Förhöj din underhållning med detaljrikt ljud...",
       "more": "Upplev kristallklart tal och virtuell surround...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "dolby atmos",
         "wifi",
@@ -175,7 +207,7 @@
       "image": "/beam.png"
     },
     {
-      "id": 9,
+      "id": "9",
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Sub",
@@ -184,7 +216,11 @@
       "info": "Sub frigör Sonosljudets fulla kraft...",
       "more": "Anslut Sub till en soundbar eller högtalare...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
+      "category": [
+        "Underhållning",
+        "Högtalare",
+        "Alla Produkter"
+      ],
       "tags": [
         "subwoofer",
         "wifi",
@@ -197,7 +233,7 @@
       "image": "/sub.png"
     },
     {
-      "id": 10,
+      "id": "10",
       "brand": "Husqvarna",
       "brandIcon": "Husqvarna",
       "title": "Automower",
@@ -206,7 +242,11 @@
       "info": "Slinglös AWD-robotgräsklippare som klarar branta lutningar på upp till 70 ",
       "more": "Husqvarna Automower® 435X AWD NERA med slinglös teknik är en robotgräsklippare som klarar lutningar utan problem och kan hantera ojämn terräng och gräsmattor på upp till 3 500 m². Branta sluttningar på upp till 70 % hanteras av fyrhjulsdriften och den ledade karossen förbättrar manövrerbarheten och greppet i krävande terräng och smala passager. En installation utan slinga ger fullständig flexibilitet med exakta virtuella gränser, tack vare satellitbaserad teknik med den inkluderade Husqvarnas EPOS®-tekniken..",
       "inStock": true,
-      "category": ["Trädgård", "Husqvarna", "Alla Produkter"],
+      "category": [
+        "Trädgård",
+        "Husqvarna",
+        "Alla Produkter"
+      ],
       "tags": [
         "gräsklippare",
         "robot",
@@ -218,7 +258,7 @@
       "image": "/gräsklippare.png"
     },
     {
-      "id": 11,
+      "id": "11",
       "brand": "Philips Hue",
       "brandIcon": "Hue",
       "title": "Resonate nedåtriktad",
@@ -227,7 +267,12 @@
       "info": "Med en nedåtriktad triangel av ljus gör denna utomhuslampa att utemiljön känns lite mer sofistikerad. Använd den medföljande klämman för att göra strålen smalare eller bredare för att bättre passa ditt utrymme. ",
       "more": "",
       "inStock": true,
-      "category": ["Trädgård", "Belysning", "Lampor", "Alla Produkter"],
+      "category": [
+        "Trädgård",
+        "Belysning",
+        "Lampor",
+        "Alla Produkter"
+      ],
       "tags": [
         "lampa",
         "ambiant",
@@ -238,7 +283,7 @@
       "image": "/lampa1hue.png"
     },
     {
-      "id": 12,
+      "id": "12",
       "brand": "Philips Hue",
       "brandIcon": "Hue",
       "title": "Lily XL",
@@ -247,7 +292,12 @@
       "info": "Lily XL har samma snygga design som Lily spotlight, men i ett större format och mer kraftfullt ljus. Använd den avtagbara kåpan för att skapa en riktad ljuseffekt och välj mellan vitt ljus eller en av de 16 miljoner färgerna.",
       "more": "",
       "inStock": true,
-      "category": ["Trädgård", "Belysning", "Lampor", "Alla Produkter"],
+      "category": [
+        "Trädgård",
+        "Belysning",
+        "Lampor",
+        "Alla Produkter"
+      ],
       "tags": [
         "lampa",
         "ambiant",
@@ -258,7 +308,7 @@
       "image": "/utehue.png"
     },
     {
-      "id": 13,
+      "id": "13",
       "brand": "Philips Hue",
       "brandIcon": "Hue",
       "title": "Startpaket: 3 st E27",
@@ -267,7 +317,12 @@
       "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
       "more": "",
       "inStock": true,
-      "category": ["Paket", "Belysning", "Lampor", "Alla Produkter"],
+      "category": [
+        "Paket",
+        "Belysning",
+        "Lampor",
+        "Alla Produkter"
+      ],
       "tags": [
         "lampa",
         "ambiant",
@@ -278,7 +333,7 @@
       "image": "/lamppaket.png"
     },
     {
-      "id": 14,
+      "id": "14",
       "brand": "Philips Hue",
       "brandIcon": "Hue",
       "title": "Klotlampa – E14 smart ljuskälla",
@@ -287,7 +342,11 @@
       "info": "Med Philips Hue Luster P45 E14-lampan kan du integrera dina minsta lampor och armaturer i ditt smarta Philips Hue-belysningssystem. Eftersom klotlampan inte är större än en golfboll passar den där andra längre E14-lampor inte får plats. Klotlampan som finns i vitt, White ambiance och White and Color Ambiance ger miljontals nyanser av vitt och färgat ljus i alla rum",
       "more": "",
       "inStock": true,
-      "category": ["Belysning", "Lampor", "Alla Produkter"],
+      "category": [
+        "Belysning",
+        "Lampor",
+        "Alla Produkter"
+      ],
       "tags": [
         "lampa",
         "ambiant",
@@ -298,7 +357,7 @@
       "image": "/bulb.png"
     },
     {
-      "id": 15,
+      "id": "15",
       "brand": "Samsung",
       "brandIcon": "Samsung",
       "title": "Bespoke Jet Bot Combo",
@@ -307,7 +366,11 @@
       "info": "Rengör utan att oroa dig för säkerhetshot. Jet Bot Combos programvara och användardata är skyddade från skadlig modifiering och åtkomst av Knox-teknik. Det förhindrar obehörig användning och dina data, som tagna bilder och video, kan inte ses eller läckas av obehöriga användare",
       "more": "Kontrollera Jet Bot Combos prestanda enkelt på SmartThings-appen*. Du kan övervaka dess rörelse och status i realtid på en virtuell karta över ditt hem och pausa den eller instruera den att stoppa. Den skapar också en rapport, så att du kan se en städhistorik, samt eventuella fel och orsaken till det.",
       "inStock": true,
-      "category": ["Hushåll", "Dammsugare", "Alla Produkter"],
+      "category": [
+        "Hushåll",
+        "Dammsugare",
+        "Alla Produkter"
+      ],
       "tags": [
         "dammsugare",
         "robot",
@@ -319,7 +382,7 @@
       "image": "/dammsugare.png"
     },
     {
-      "id": 16,
+      "id": "16",
       "brand": "Somfy",
       "brandIcon": "Somfy",
       "title": "Somfy Indoor Camera",
@@ -328,7 +391,11 @@
       "info": "Somfy Indoor Camera är en smart och lättinstallerad inomhuskamera med många funktioner. Inbyggd rörelsesensorn ser till att full HD-kameran (1080p) startar inspelning så snart något händer. Somfy Indoor Camera har dessutom ett unikt motoriserat linsskydd som skyddar din integritet.",
       "more": "Alla filmklipp som kameran spelar in så snart den upptäcker rörelse lagras säkert i molnet (kan även spara till Dropbox, Google Drive eller Microsoft OneDrive). Dessa 30 sekunders fria filmklipp är tillgängliga i 7 dagar. När kameran detekterar rörelse skickas en pushnotis omedelbart till din smartphone. Du kan se vad som händer i realtid och gå tillbaka i tidslinjen för att se eventuella tidigare händelser. Det går också att ta bilder i appen med kameran som lagras på din smartphone",
       "inStock": true,
-      "category": ["Säkerhet", "Larm", "Alla Produkter"],
+      "category": [
+        "Säkerhet",
+        "Larm",
+        "Alla Produkter"
+      ],
       "tags": [
         "larm",
         "säkerhet",
@@ -339,6 +406,14 @@
       "image": "/somfy.png"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "id": "3fa8",
+      "firstName": "jerker",
+      "lastName": "danielsson",
+      "email": "jerker_danielsson@hotmail.com",
+      "password": "password"
+    }
+  ],
   "orders": []
 }

@@ -1,5 +1,7 @@
 import CategoriesDropdown from './CategoriesDropdown';
 import SearchInput from './SearchInput';
+
+import { useAuth } from "../../context/AuthContext";
 import { useCart } from "../../context/CartContext";
 
 import { BiUser, BiShoppingBag } from "react-icons/bi";
@@ -8,10 +10,13 @@ import { NavLink } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
 
+
 const Navbar = () => {
    
   const { cartItems } = useCart();
   const cartCount = cartItems.length;
+
+  const { user, isLoggedIn, logout } = useAuth();
 
 
   return (
@@ -30,14 +35,21 @@ const Navbar = () => {
 
       <ul className="flex-1 flex justify-end gap-6 text-xl">
         <SearchInput />
-
-
-        <li className="relative">
-          <Link to="/Login" className="hover:opacity-70 text-2xl">
-           <BiUser />
-          </Link>
-           </li>
-
+        
+        
+        {isLoggedIn ? (
+  <li className="relative">
+    <Link to="/login" className="text-2xl hover:opacity-70 text-brandgold">
+      <BiUser />
+    </Link>
+  </li>
+) : (
+  <li className="relative">
+    <Link to="/login" className="text-2xl hover:opacity-70 text-black">
+      <BiUser />
+    </Link>
+  </li>
+)}
 
         <li className="relative">
          <Link to="/cart">
