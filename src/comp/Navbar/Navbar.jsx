@@ -7,6 +7,7 @@ import { BiUser, BiShoppingBag } from "react-icons/bi";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
    
   const { cartItems } = useCart();
@@ -16,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-8 border-b mb-1">
       <div className="flex-1">
-        <NavLink to="/" className="text-xl font-bold">TECHFLOW</NavLink>
+        <Link to="/" className="text-xl font-bold">TECHFLOW</Link>
       </div>
 
       <ul className="flex flex-1 justify-center gap-2 items-center ">
@@ -29,18 +30,25 @@ const Navbar = () => {
 
       <ul className="flex-1 flex justify-end gap-6 text-xl">
         <SearchInput />
-        <li><BiUser /></li>
-        <li className="relative">
 
-  <Link to="/cart">
-    <BiShoppingBag className="text-2xl hover:opacity-70" />
-    {cartCount > 0 && (
-      <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-        {cartCount}
-      </span>
-    )}
-  </Link>
-</li>
+
+        <li className="relative">
+          <Link to="/Login" className="hover:opacity-70 text-2xl">
+           <BiUser />
+          </Link>
+           </li>
+
+
+        <li className="relative">
+         <Link to="/cart">
+        <BiShoppingBag className="text-2xl hover:opacity-70" />
+           {cartCount > 0 && (
+              <span className="absolute -top-2 -right-2 bg-brandgold text-black text-xs rounded-full w-5 h-5 flex items-center justify-center">
+           {cartCount}
+         </span>
+          )}
+          </Link>
+           </li>
 
       </ul>
     </nav>

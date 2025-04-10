@@ -10,7 +10,7 @@
       "info": "Roam 2 är otroligt lätt, tålig och kraftfull...",
       "more": "Kom ännu närmare allt du lyssnar på med kristallklart och rymligt ljud...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "bärbar",
         "bluetooth",
@@ -32,7 +32,7 @@
       "info": "Era 100 har den senaste akustiken...",
       "more": "Kom ännu närmare allt du lyssnar på...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "wifi",
         "bluetooth",
@@ -48,12 +48,12 @@
       "brand": "Sonos",
       "brandIcon": "sonos",
       "title": "Era 300",
-      "description": "En förstklassig smart högtalare",
+      "description": "En förstklassig smart högtalare,",
       "price": 5999,
       "info": "Med Era 300 får du förstklassigt ljud från alla håll...",
       "more": "Kom ännu närmare allt du lyssnar på...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "wifi",
         "bluetooth",
@@ -74,7 +74,7 @@
       "info": "Vår kraftfullaste bärbara högtalare...",
       "more": "Anslut till önskat ljudinnehåll via Wi-Fi och Bluetooth...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "bärbar",
         "wifi",
@@ -96,7 +96,7 @@
       "info": "Five är utformad för att ge förstklassigt ljud...",
       "more": "Uppfatta varenda ton och känn vartenda trumslag...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "wifi",
         "stereo",
@@ -118,7 +118,7 @@
       "info": "Omsorgsfullt designade och mästerligt justerade...",
       "more": "Upplev varje frekvens med överlägsen precision...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "bluetooth",
         "usb-c",
@@ -140,7 +140,7 @@
       "info": "Ge underhållningen liv med rymligt ljud med Dolby Atmos...",
       "more": "Arc är enkel att installera och använda...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "dolby atmos",
         "wifi",
@@ -162,7 +162,7 @@
       "info": "Förhöj din underhållning med detaljrikt ljud...",
       "more": "Upplev kristallklart tal och virtuell surround...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "dolby atmos",
         "wifi",
@@ -184,7 +184,7 @@
       "info": "Sub frigör Sonosljudets fulla kraft...",
       "more": "Anslut Sub till en soundbar eller högtalare...",
       "inStock": true,
-      "category": ["Underhållning", "Högtalare"],
+      "category": ["Underhållning", "Högtalare", "Alla Produkter"],
       "tags": [
         "subwoofer",
         "wifi",
@@ -195,6 +195,148 @@
       "room": "vardagsrum",
       "searchableText": "sonos sub subwoofer trådlös wifi djup bas hemmabio vardagsrum",
       "image": "/sub.png"
+    },
+    {
+      "id": 10,
+      "brand": "Husqvarna",
+      "brandIcon": "Husqvarna",
+      "title": "Automower",
+      "description": "435X AWD NERA med slinglös teknik",
+      "price": 69900,
+      "info": "Slinglös AWD-robotgräsklippare som klarar branta lutningar på upp till 70 ",
+      "more": "Husqvarna Automower® 435X AWD NERA med slinglös teknik är en robotgräsklippare som klarar lutningar utan problem och kan hantera ojämn terräng och gräsmattor på upp till 3 500 m². Branta sluttningar på upp till 70 % hanteras av fyrhjulsdriften och den ledade karossen förbättrar manövrerbarheten och greppet i krävande terräng och smala passager. En installation utan slinga ger fullständig flexibilitet med exakta virtuella gränser, tack vare satellitbaserad teknik med den inkluderade Husqvarnas EPOS®-tekniken..",
+      "inStock": true,
+      "category": ["Trädgård", "Husqvarna", "Alla Produkter"],
+      "tags": [
+        "gräsklippare",
+        "robot",
+        "utomhus",
+        "gräs"
+      ],
+      "room": "utomhus",
+      "searchableText": "husqvarna gräsklippare robot",
+      "image": "/gräsklippare.png"
+    },
+    {
+      "id": 11,
+      "brand": "Philips Hue",
+      "brandIcon": "Hue",
+      "title": "Resonate nedåtriktad",
+      "description": "Sätt färg på din veranda eller uteplats!",
+      "price": 1389,
+      "info": "Med en nedåtriktad triangel av ljus gör denna utomhuslampa att utemiljön känns lite mer sofistikerad. Använd den medföljande klämman för att göra strålen smalare eller bredare för att bättre passa ditt utrymme. ",
+      "more": "",
+      "inStock": true,
+      "category": ["Trädgård", "Belysning", "Lampor", "Alla Produkter"],
+      "tags": [
+        "lampa",
+        "ambiant",
+        "utomhus"
+      ],
+      "room": "utomhus",
+      "searchableText": "philips hue lampa light smartlampa",
+      "image": "/lampa1hue.png"
+    },
+    {
+      "id": 12,
+      "brand": "Philips Hue",
+      "brandIcon": "Hue",
+      "title": "Lily XL",
+      "description": "spotlight för utomhusbruk",
+      "price": 1849,
+      "info": "Lily XL har samma snygga design som Lily spotlight, men i ett större format och mer kraftfullt ljus. Använd den avtagbara kåpan för att skapa en riktad ljuseffekt och välj mellan vitt ljus eller en av de 16 miljoner färgerna.",
+      "more": "",
+      "inStock": true,
+      "category": ["Trädgård", "Belysning", "Lampor", "Alla Produkter"],
+      "tags": [
+        "lampa",
+        "ambiant",
+        "utomhus"
+      ],
+      "room": "utomhus",
+      "searchableText": "philips hue lampa light smartlampa",
+      "image": "/utehue.png"
+    },
+    {
+      "id": 13,
+      "brand": "Philips Hue",
+      "brandIcon": "Hue",
+      "title": "Startpaket: 3 st E27",
+      "description": "ljuskällor (1100lm)",
+      "price": 1959,
+      "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
+      "more": "",
+      "inStock": true,
+      "category": ["Paket", "Belysning", "Lampor", "Alla Produkter"],
+      "tags": [
+        "lampa",
+        "ambiant",
+        "utomhus"
+      ],
+      "room": "utomhus",
+      "searchableText": "philips hue lampa light smartlampa",
+      "image": "/lamppaket.png"
+    },
+    {
+      "id": 14,
+      "brand": "Philips Hue",
+      "brandIcon": "Hue",
+      "title": "Klotlampa – E14 smart ljuskälla",
+      "description": "Varmt till kallvitt och färgat",
+      "price": 749,
+      "info": "Med Philips Hue Luster P45 E14-lampan kan du integrera dina minsta lampor och armaturer i ditt smarta Philips Hue-belysningssystem. Eftersom klotlampan inte är större än en golfboll passar den där andra längre E14-lampor inte får plats. Klotlampan som finns i vitt, White ambiance och White and Color Ambiance ger miljontals nyanser av vitt och färgat ljus i alla rum",
+      "more": "",
+      "inStock": true,
+      "category": ["Belysning", "Lampor", "Alla Produkter"],
+      "tags": [
+        "lampa",
+        "ambiant",
+        "utomhus"
+      ],
+      "room": "utomhus",
+      "searchableText": "philips hue lampa light smartlampa",
+      "image": "/bulb.png"
+    },
+    {
+      "id": 15,
+      "brand": "Samsung",
+      "brandIcon": "Samsung",
+      "title": "Bespoke Jet Bot Combo",
+      "description": "VR7MD96514G/WA",
+      "price": 14990,
+      "info": "Rengör utan att oroa dig för säkerhetshot. Jet Bot Combos programvara och användardata är skyddade från skadlig modifiering och åtkomst av Knox-teknik. Det förhindrar obehörig användning och dina data, som tagna bilder och video, kan inte ses eller läckas av obehöriga användare",
+      "more": "Kontrollera Jet Bot Combos prestanda enkelt på SmartThings-appen*. Du kan övervaka dess rörelse och status i realtid på en virtuell karta över ditt hem och pausa den eller instruera den att stoppa. Den skapar också en rapport, så att du kan se en städhistorik, samt eventuella fel och orsaken till det.",
+      "inStock": true,
+      "category": ["Hushåll", "Dammsugare", "Alla Produkter"],
+      "tags": [
+        "dammsugare",
+        "robot",
+        "inomhus",
+        "hushåll"
+      ],
+      "room": "utomhus",
+      "searchableText": "samsung hoover dammsugare robotdammsugare",
+      "image": "/dammsugare.png"
+    },
+    {
+      "id": 16,
+      "brand": "Somfy",
+      "brandIcon": "Somfy",
+      "title": "Somfy Indoor Camera",
+      "description": "Smart IP-kamera",
+      "price": 8990,
+      "info": "Somfy Indoor Camera är en smart och lättinstallerad inomhuskamera med många funktioner. Inbyggd rörelsesensorn ser till att full HD-kameran (1080p) startar inspelning så snart något händer. Somfy Indoor Camera har dessutom ett unikt motoriserat linsskydd som skyddar din integritet.",
+      "more": "Alla filmklipp som kameran spelar in så snart den upptäcker rörelse lagras säkert i molnet (kan även spara till Dropbox, Google Drive eller Microsoft OneDrive). Dessa 30 sekunders fria filmklipp är tillgängliga i 7 dagar. När kameran detekterar rörelse skickas en pushnotis omedelbart till din smartphone. Du kan se vad som händer i realtid och gå tillbaka i tidslinjen för att se eventuella tidigare händelser. Det går också att ta bilder i appen med kameran som lagras på din smartphone",
+      "inStock": true,
+      "category": ["Säkerhet", "Larm", "Alla Produkter"],
+      "tags": [
+        "larm",
+        "säkerhet",
+        "kamera"
+      ],
+      "room": "utomhus",
+      "searchableText": "somfy säkerhet kamera",
+      "image": "/somfy.png"
     }
   ],
   "users": [],
