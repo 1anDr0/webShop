@@ -1,8 +1,7 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
-
-
+import { useAuth } from "../context/AuthContext";
 
 const RegForm = () => {
 
@@ -10,6 +9,9 @@ const RegForm = () => {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const navigate = useNavigate();
+  const { login } = useAuth();
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -23,13 +25,16 @@ const RegForm = () => {
 
     fetch("http://localhost:3001/users", { 
        method: 'POST',
-       header: {'Content-Type':'application/json'}, //skickar json till servern
+       headers: {'Content-Type':'application/json'}, //skickar json till servern
        body: JSON.stringify(newUser)
-      }) .then(() => {
-        console.log('ny user');
+      }) 
+      .then(res => res.json()) // 🔁 Hämta JSON från svaret
+      .then(data => {
+        login(data);           // ✅ Logga in användaren direkt
+        navigate("/");         // 🚀 Gå till startsidan
+        console.log('ny user:', data);
       })
-     
-    
+      .catch(err => console.error("Fel vid registrering:", err));
   }
 
 

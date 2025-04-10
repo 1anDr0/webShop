@@ -39,9 +39,12 @@ const Navbar = () => {
         
         {isLoggedIn ? (
   <li className="relative">
-    <Link to="/login" className="text-2xl hover:opacity-70 text-brandgold">
+    <button
+      onClick={logout}
+      className="text-2xl hover:opacity-70 text-brandgold"
+    >
       <BiUser />
-    </Link>
+    </button>
   </li>
 ) : (
   <li className="relative">

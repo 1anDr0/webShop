@@ -10,7 +10,8 @@ import CartPage from './pages/CartPage';
 import Footer from './comp/Footer';
 import Login from './pages/Login';
 import RegForm from './pages/RegForm';
-
+import NotFoundPage from './pages/NotFoundPage';
+import Checkout from './pages/Checkout';
 
 
 const App = () => {
@@ -26,6 +27,8 @@ const App = () => {
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/RegForm" element={<RegForm/>} />
         <Route path="/Login" element={<Login/>} />
+        <Route path="Checkout" element={<Checkout/>} />
+        <Route path="*" element={<NotFoundPage/>} />
       </Routes>
 
       <Footer />
