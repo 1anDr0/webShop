@@ -1,9 +1,9 @@
-import React from 'react'
+import CartPage from "./CartPage"
 
 const Checkout = () => {
   return (
     <div>
-      <h1>checkout</h1>
+      <CartPage isCheckout/>
     </div>
   )
 }

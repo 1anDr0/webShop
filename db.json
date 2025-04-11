@@ -436,5 +436,207 @@
       "password": "lösenord"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "fbcb",
+      "user": {
+        "firstName": "jerker",
+        "lastName": "danielsson",
+        "email": "jerker_danielsson@hotmail.com",
+        "adress": "kvickrotsgrän 102",
+        "zipCode": "16576",
+        "city": "Hässelby"
+      },
+      "items": [
+        {
+          "id": "13",
+          "brand": "Philips Hue",
+          "brandIcon": "Hue",
+          "title": "Startpaket: 3 st E27",
+          "description": "ljuskällor (1100lm)",
+          "price": 1959,
+          "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
+          "more": "",
+          "inStock": true,
+          "category": [
+            "Paket",
+            "Belysning",
+            "Lampor",
+            "Alla Produkter"
+          ],
+          "tags": [
+            "lampa",
+            "ambiant",
+            "utomhus"
+          ],
+          "room": "utomhus",
+          "searchableText": "philips hue lampa light smartlampa",
+          "image": "/lamppaket.png"
+        }
+      ],
+      "total": 1959,
+      "date": "2025-04-11T11:34:27.405Z"
+    },
+    {
+      "id": "83c4",
+      "user": {
+        "firstName": "jerker",
+        "lastName": "danielsson",
+        "email": "jerker_danielsson@hotmail.com",
+        "adress": "kvickortsgrän 102",
+        "zipCode": "123123",
+        "city": "sthlm"
+      },
+      "items": [
+        {
+          "id": "3",
+          "brand": "Sonos",
+          "brandIcon": "sonos",
+          "title": "Era 300",
+          "description": "En förstklassig smart högtalare,",
+          "price": 5999,
+          "info": "Med Era 300 får du förstklassigt ljud från alla håll...",
+          "more": "Kom ännu närmare allt du lyssnar på...",
+          "inStock": true,
+          "category": [
+            "Underhållning",
+            "Högtalare",
+            "Alla Produkter"
+          ],
+          "tags": [
+            "wifi",
+            "bluetooth",
+            "dolby atmos",
+            "surround"
+          ],
+          "room": "vardagsrum",
+          "searchableText": "sonos era 300 högtalare dolby atmos smart wifi bluetooth surround ljud vardagsrum",
+          "image": "/era300.png"
+        }
+      ],
+      "total": 5999,
+      "date": "2025-04-11T11:38:14.801Z"
+    },
+    {
+      "id": "85a5",
+      "user": {
+        "firstName": "jerker",
+        "lastName": "danielsson",
+        "email": "jerker_danielsson@hotmail.com",
+        "adress": "asda",
+        "zipCode": "322332",
+        "city": "assdads"
+      },
+      "items": [
+        {
+          "id": "13",
+          "brand": "Philips Hue",
+          "brandIcon": "Hue",
+          "title": "Startpaket: 3 st E27",
+          "description": "ljuskällor (1100lm)",
+          "price": 1959,
+          "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
+          "more": "",
+          "inStock": true,
+          "category": [
+            "Paket",
+            "Belysning",
+            "Lampor",
+            "Alla Produkter"
+          ],
+          "tags": [
+            "lampa",
+            "ambiant",
+            "utomhus"
+          ],
+          "room": "utomhus",
+          "searchableText": "philips hue lampa light smartlampa",
+          "image": "/lamppaket.png"
+        }
+      ],
+      "total": 1959,
+      "date": "2025-04-11T11:38:55.654Z"
+    },
+    {
+      "id": "3e56",
+      "user": {
+        "firstName": "jerker",
+        "lastName": "danielsson",
+        "email": "jerker_danielsson@hotmail.com",
+        "adress": "sadas",
+        "zipCode": "980",
+        "city": "sthlm"
+      },
+      "items": [
+        {
+          "id": "13",
+          "brand": "Philips Hue",
+          "brandIcon": "Hue",
+          "title": "Startpaket: 3 st E27",
+          "description": "ljuskällor (1100lm)",
+          "price": 1959,
+          "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
+          "more": "",
+          "inStock": true,
+          "category": [
+            "Paket",
+            "Belysning",
+            "Lampor",
+            "Alla Produkter"
+          ],
+          "tags": [
+            "lampa",
+            "ambiant",
+            "utomhus"
+          ],
+          "room": "utomhus",
+          "searchableText": "philips hue lampa light smartlampa",
+          "image": "/lamppaket.png"
+        }
+      ],
+      "total": 1959,
+      "date": "2025-04-11T11:39:24.808Z"
+    },
+    {
+      "id": "8d87",
+      "user": {
+        "firstName": "jerker",
+        "lastName": "danielsson",
+        "email": "jerker_danielsson@hotmail.com",
+        "adress": "addsd",
+        "zipCode": "909",
+        "city": "asdadsa"
+      },
+      "items": [
+        {
+          "id": "6",
+          "brand": "Sonos",
+          "brandIcon": "sonos",
+          "title": "Ace",
+          "description": "Hörlurar",
+          "price": 4699,
+          "info": "Omsorgsfullt designade och mästerligt justerade...",
+          "more": "Upplev varje frekvens med överlägsen precision...",
+          "inStock": true,
+          "category": [
+            "Underhållning",
+            "Högtalare",
+            "Alla Produkter"
+          ],
+          "tags": [
+            "bluetooth",
+            "usb-c",
+            "3.5mm",
+            "brusreducering",
+            "lossless"
+          ],
+          "room": "på språng",
+          "searchableText": "sonos ace hörlurar bluetooth usb-c 3.5mm lossless brusreducering",
+          "image": "/ace.png"
+        }
+      ],
+      "total": 4699,
+      "date": "2025-04-11T11:40:04.425Z"
+    }
+  ]
 }
