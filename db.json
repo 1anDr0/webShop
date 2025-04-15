@@ -408,76 +408,56 @@
   ],
   "users": [
     {
-      "id": "5fb2",
-      "firstName": "mats",
-      "lastName": "rubarth",
-      "email": "mats@mail.se",
-      "password": "password"
+      "id": "a5fe",
+      "firstName": "Jerker",
+      "lastName": "Danielsson",
+      "email": "jerker_danielsson@hotmail.com",
+      "password": "password",
+      "address": "Kvickrotsgränd 102",
+      "zipCode": "165 76",
+      "city": "Hässelby"
     }
   ],
   "orders": [
     {
-      "id": "57c5",
+      "id": "2950",
       "user": {
-        "firstName": "mats",
-        "lastName": "rubarth",
-        "email": "mats@mail.se",
-        "adress": "",
-        "zipCode": "",
-        "city": ""
+        "firstName": "Jerker",
+        "lastName": "Danielsson",
+        "email": "jerker_danielsson@hotmail.com",
+        "address": "Kvickrotsgränd 102",
+        "zipCode": "165 76",
+        "city": "Hässelby"
       },
       "items": [
         {
-          "id": "16",
-          "brand": "Somfy",
-          "brandIcon": "Somfy",
-          "title": "Somfy Indoor Camera",
-          "description": "Smart IP-kamera",
-          "price": 8990,
-          "info": "Somfy Indoor Camera är en smart och lättinstallerad inomhuskamera med många funktioner. Inbyggd rörelsesensorn ser till att full HD-kameran (1080p) startar inspelning så snart något händer. Somfy Indoor Camera har dessutom ett unikt motoriserat linsskydd som skyddar din integritet.",
-          "more": "Alla filmklipp som kameran spelar in så snart den upptäcker rörelse lagras säkert i molnet (kan även spara till Dropbox, Google Drive eller Microsoft OneDrive). Dessa 30 sekunders fria filmklipp är tillgängliga i 7 dagar. När kameran detekterar rörelse skickas en pushnotis omedelbart till din smartphone. Du kan se vad som händer i realtid och gå tillbaka i tidslinjen för att se eventuella tidigare händelser. Det går också att ta bilder i appen med kameran som lagras på din smartphone",
+          "id": "10",
+          "brand": "Husqvarna",
+          "brandIcon": "Husqvarna",
+          "title": "Automower",
+          "description": "435X AWD NERA med slinglös teknik",
+          "price": 69900,
+          "info": "Slinglös AWD-robotgräsklippare som klarar branta lutningar på upp till 70 ",
+          "more": "Husqvarna Automower® 435X AWD NERA med slinglös teknik är en robotgräsklippare som klarar lutningar utan problem och kan hantera ojämn terräng och gräsmattor på upp till 3 500 m². Branta sluttningar på upp till 70 % hanteras av fyrhjulsdriften och den ledade karossen förbättrar manövrerbarheten och greppet i krävande terräng och smala passager. En installation utan slinga ger fullständig flexibilitet med exakta virtuella gränser, tack vare satellitbaserad teknik med den inkluderade Husqvarnas EPOS®-tekniken..",
           "inStock": true,
           "category": [
-            "Säkerhet",
-            "Larm",
+            "Trädgård",
+            "Husqvarna",
             "Alla Produkter"
           ],
           "tags": [
-            "larm",
-            "säkerhet",
-            "kamera"
+            "gräsklippare",
+            "robot",
+            "utomhus",
+            "gräs"
           ],
           "room": "utomhus",
-          "searchableText": "somfy säkerhet kamera",
-          "image": "/somfy.png"
-        },
-        {
-          "id": "16",
-          "brand": "Somfy",
-          "brandIcon": "Somfy",
-          "title": "Somfy Indoor Camera",
-          "description": "Smart IP-kamera",
-          "price": 8990,
-          "info": "Somfy Indoor Camera är en smart och lättinstallerad inomhuskamera med många funktioner. Inbyggd rörelsesensorn ser till att full HD-kameran (1080p) startar inspelning så snart något händer. Somfy Indoor Camera har dessutom ett unikt motoriserat linsskydd som skyddar din integritet.",
-          "more": "Alla filmklipp som kameran spelar in så snart den upptäcker rörelse lagras säkert i molnet (kan även spara till Dropbox, Google Drive eller Microsoft OneDrive). Dessa 30 sekunders fria filmklipp är tillgängliga i 7 dagar. När kameran detekterar rörelse skickas en pushnotis omedelbart till din smartphone. Du kan se vad som händer i realtid och gå tillbaka i tidslinjen för att se eventuella tidigare händelser. Det går också att ta bilder i appen med kameran som lagras på din smartphone",
-          "inStock": true,
-          "category": [
-            "Säkerhet",
-            "Larm",
-            "Alla Produkter"
-          ],
-          "tags": [
-            "larm",
-            "säkerhet",
-            "kamera"
-          ],
-          "room": "utomhus",
-          "searchableText": "somfy säkerhet kamera",
-          "image": "/somfy.png"
+          "searchableText": "husqvarna gräsklippare robot",
+          "image": "/gräsklippare.png"
         }
       ],
-      "total": 17980,
-      "date": "2025-04-14T11:47:47.374Z"
+      "total": 69900,
+      "date": "2025-04-15T10:54:03.241Z"
     }
   ]
 }

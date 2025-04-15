@@ -5,9 +5,11 @@ import { useAuth } from "../../context/AuthContext";
 import { useCart } from "../../context/CartContext";
 
 import { BiUser, BiShoppingBag } from "react-icons/bi";
+import toast from 'react-hot-toast';
 
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-router-dom";
+
 
 
 
@@ -39,9 +41,12 @@ const Navbar = () => {
         
         {isLoggedIn ? (
   <li className="relative">
-    <button
-      onClick={logout}
-      className="text-2xl hover:opacity-70 text-brandgold"
+    <button className="text-2xl hover:opacity-70 text-brandgold"
+      onClick={() => {
+        logout();
+        toast.success("Du är nu utloggad!");
+      }}
+      
     > <BiUser />
     </button>
      </li>

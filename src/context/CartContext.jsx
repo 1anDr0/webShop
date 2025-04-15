@@ -1,23 +1,25 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
-// Skapa context
 const CartContext = createContext();
 
-// Provider som omger hela appen
 export const CartProvider = ({ children }) => {
-  const [cartItems, setCartItems] = useState([]);
-
-  // Lägg till i varukorg
+  const [cartItems, setCartItems] = useState(() => {
+    const stored = localStorage.getItem("cart");
+    return stored ? JSON.parse(stored) : [];
+  });
+  
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cartItems));
+  }, [cartItems]);
+  
   const addToCart = (product) => {
     setCartItems((prevItems) => [...prevItems, product]);
   };
 
-  // Ta bort en vara
   const removeFromCart = (id) => {
     setCartItems((prevItems) => prevItems.filter(item => item.id !== id));
   };
 
-  // Töm hela varukorgen
   const clearCart = () => setCartItems([]);
 
   return (
@@ -27,5 +29,5 @@ export const CartProvider = ({ children }) => {
   );
 };
 
-// Custom hook för att använda context enklare
+
 export const useCart = () => useContext(CartContext);

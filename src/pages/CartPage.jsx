@@ -1,5 +1,7 @@
 import { Link, useNavigate } from "react-router-dom"
 
+import toast from "react-hot-toast";
+
 import { useCart } from "../context/CartContext"
 import { useAuth } from "../context/AuthContext";
 
@@ -8,34 +10,41 @@ import { useEffect, useState } from "react";
 
 const CartPage = ({ isCheckout }) => {
    const { cartItems, removeFromCart, clearCart } = useCart();
+   const { user } = useAuth();
+   const navigate = useNavigate();
 
    const total = cartItems.reduce((sum, item) => sum + item.price, 0);
 
      const [firstName, setFirstName] = useState('');
      const [lastName, setLastName] = useState('');
      const [email, setEmail] = useState('');
-     const [adress, setAdress] = useState('');
+     const [address, setAddress] = useState('');
      const [zipCode, setZipCode] = useState('');
      const [city, setCity] = useState('');
 
-        const { user } = useAuth();
+      
         
      useEffect(() => {
      if (user) {
-    setFirstName(user.firstName || "");
-    setLastName(user.lastName || "");
+      setFirstName(user.firstName || "");
+       setLastName(user.lastName || "");
     setEmail(user.email || "");
+    setAddress(user.address || "");
+    setCity(user.city || "");
+    setZipCode(user.zipCode || "");
     }
     }, [user]);
 
-   const handleSubmitOrder = async () => {
+   const handleSubmitOrder = async (e) => {
+    
+    e.preventDefault();
 
     const order = {
       user: {
         firstName,
         lastName,
         email,
-        adress,
+        address,
         zipCode,
         city
       },
@@ -54,11 +63,12 @@ const CartPage = ({ isCheckout }) => {
       });
   
       if (res.ok) {
-        alert("Tack för din beställning!");
-        clearCart();
+        toast.success("Tack! Din beställning är bekräftad.");
+          navigate("/order-confirmation");
+          clearCart();
         
       } else {
-        alert("Något gick fel vid beställningen.");
+        toast.error("Något gick fel vid beställningen.");
       }
     } catch (err) {
       console.error("Fel vid beställning:", err);
@@ -111,12 +121,26 @@ const CartPage = ({ isCheckout }) => {
               <h1 className="text-lg font-bold mt-8">Fyll i dina uppgifter:</h1>
 
               <form onSubmit={handleSubmitOrder} className="grid gap-4 mb-10 mt-4">
-              <input type="text" placeholder="Förnamn" value={firstName} onChange={(e) => setFirstName(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
-              <input type="text" placeholder="Efternamn" value={lastName} onChange={(e) => setLastName(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
-               <input type="email" placeholder="E-post" value={email} onChange={(e) => setEmail(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
-              <input type="text" placeholder="Adress" value={adress} onChange={(e) => setAdress(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
-              <input type="text" placeholder="Postnummer" value={zipCode} onChange={(e) => setZipCode(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
-              <input type="text" placeholder="Ort" value={city} onChange={(e) => setCity(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+              
+              <label htmlFor="firstname" className="block text-sm/6 font-medium text-black">Förnamn</label>
+              <input type="text"  name="firstname" id="firstname" autoComplete="postal-code" required value={firstName} onChange={(e) => setFirstName(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+
+              <label htmlFor="lastname" className="block text-sm/6 font-medium text-black">Efternamn</label>
+              <input type="text" name="lastname" id="lastname" autoComplete="family-name" required value={lastName} onChange={(e) => setLastName(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+              
+              
+               <label htmlFor="email" className="block text-sm/6 font-medium text-black">Adress</label>
+              <input type="text" name="address" id="address" autoComplete="street-address" required value={address} onChange={(e) => setAddress(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+
+              <label htmlFor="zip" className="block text-sm/6 font-medium text-black">Postnummer</label>
+              <input type="text" name="zipcode" id="zipcode" autoComplete="postal-code" required value={zipCode} onChange={(e) => setZipCode(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+
+              <label htmlFor="city" className="block text-sm/6 font-medium text-black">Ort/Stad</label>
+              <input type="text" name="city" id="city" autoComplete="address-level2" required value={city} onChange={(e) => setCity(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+
+              <label htmlFor="email" className="block text-sm/6 font-medium text-black">E-post</label>
+               <input type="email"  name="email" id="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-brandgold sm:text-sm/6"/>
+
               <div className="mt-6 border-t pt-6 flex justify-between items-center">
               <div className="text-xl font-bold">Totalt: {total.toLocaleString()} kr</div>
               <button

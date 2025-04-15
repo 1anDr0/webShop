@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
+import { toast } from "react-hot-toast";
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -17,19 +19,21 @@ const Login = () => {
       const res = await fetch(`http://localhost:3001/users?email=${email}`);
       const users = await res.json();
       const user = users[0]; // förutsätter unik e-post
+      
 
       if (!user) {
-        alert("Ingen användare hittades");
+        toast.error("Ingen användare hittades");
         return;
       }
 
       if (user.password !== password) {
-        alert("Fel lösenord");
+        toast.error("Fel lösenord");
         return;
       }
 
       localStorage.setItem("user", JSON.stringify(user));
       login(user);
+      toast.success("Välkommen tillbaka");
       navigate("/");
     } catch (err) {
       console.error("Fel vid inloggning:", err);
