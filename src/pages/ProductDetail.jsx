@@ -22,7 +22,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-20">
+    <div className="max-w-7xl mx-auto px-6 py-20">
       <div className="flex flex-col lg:flex-row gap-10 items-start">
         
         {/* Bilden till vänster */}

@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="flex justify-between items-center px-8 border-b mb-1">
+    <nav className="flex justify-between items-center px-12 border-b mb-1">
       <div className="flex-1">
         <Link to="/" className="text-xl font-bold">TECHFLOW</Link>
       </div>

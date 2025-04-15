@@ -79,12 +79,12 @@ const CartPage = ({ isCheckout }) => {
 
    return (
     <div className="bg-lightgrey">
-    <div className="max-w-4xl mx-auto px-6 py-12 ">
+    <div className="max-w-7xl mx-auto px-6 py-12 ">
       <h1 className="text-3xl font-bold mb-8">Din varukorg</h1>
 
       {/* Om varukorgen är tom */}
       {cartItems.length === 0 ? (
-        <p className="text-black">Du har inga produkter i varukorgen.</p>
+        <p className="text-black mb-20">Du har inga produkter i varukorgen.</p>
       ) : (
         <>
           {/* Produktlista */}
@@ -118,7 +118,7 @@ const CartPage = ({ isCheckout }) => {
           {isCheckout ? (
               <>
               <div>
-              <h1 className="text-lg font-bold mt-8">Fyll i dina uppgifter:</h1>
+              <h1 className="text-lg font-bold mt-20 mb-10">Fyll i dina uppgifter:</h1>
 
               <form onSubmit={handleSubmitOrder} className="grid gap-4 mb-10 mt-4">
               
@@ -159,7 +159,7 @@ const CartPage = ({ isCheckout }) => {
             ) : (
               <div>
                  {/* Totalsumma & knappar */}
-          <div className="mt-10 border-t pt-6 flex justify-between items-center">
+          <div className="mt-20 border-t pt-6 flex justify-between items-center">
             <div className="text-xl font-bold">Totalt: {total.toLocaleString()} kr</div>
               <div className="flex gap-4">
               <button
