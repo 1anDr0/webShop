@@ -12,6 +12,7 @@ const CategoriesDropdown = () => {
       >
         KATEGORIER
       </button>
+      
       {isOpen && (
   <div className="absolute left-1/2 top-full transform -translate-x-1/2 w-[1000px] bg-white shadow-lg border-t border-gray-200 z-50 py-6 px-12">
     <div className="flex justify-between gap-8">

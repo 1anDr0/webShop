@@ -1,7 +1,9 @@
 import { Link, useNavigate } from "react-router-dom"
+
 import { useCart } from "../context/CartContext"
-import { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContext";
+
+import { useEffect, useState } from "react";
 
 
 const CartPage = ({ isCheckout }) => {
@@ -17,18 +19,17 @@ const CartPage = ({ isCheckout }) => {
      const [city, setCity] = useState('');
 
         const { user } = useAuth();
-        const navigate = useNavigate();
-
-
-useEffect(() => {
-  if (user) {
+        
+     useEffect(() => {
+     if (user) {
     setFirstName(user.firstName || "");
     setLastName(user.lastName || "");
     setEmail(user.email || "");
-  }
-}, [user]);
+    }
+    }, [user]);
 
    const handleSubmitOrder = async () => {
+
     const order = {
       user: {
         firstName,
@@ -53,9 +54,9 @@ useEffect(() => {
       });
   
       if (res.ok) {
-        
-        navigate('./pages/Ordered');
+        alert("Tack för din beställning!");
         clearCart();
+        
       } else {
         alert("Något gick fel vid beställningen.");
       }
@@ -121,8 +122,7 @@ useEffect(() => {
               <button
               type="submit" 
               className="bg-brandturkos text-white px-6 py-2 rounded-full hover:bg-brandgold hover:text-black text-sm"
-              >
-              Bekräfta beställning
+              >Bekräfta beställning
               </button>
              </div>
             </form>

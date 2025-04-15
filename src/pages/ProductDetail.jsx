@@ -54,18 +54,12 @@ const ProductDetail = () => {
          <span className="text-red-600 font-medium">Ej i lager</span>
          )}
           </p>
-
-
-
-          
-
-                  <button className="bg-brandturkos text-white px-[200px] py-2 rounded-full hover:bg-brandgold hover:text-white transition"
-                  aria-label="Lägg till i varukorg"
-                  onClick={(e) => {
-                    e.preventDefault(); // Stoppar Link från att triggas
-                    addToCart(product); // Lägg till i context
-                  }}
-                  >Lägg i varukorgen</button>
+          <button className="bg-brandturkos text-white px-[200px] py-2 rounded-full hover:bg-brandgold hover:text-white transition"
+           aria-label="Lägg till i varukorg"
+          onClick={(e) => {
+          e.preventDefault(); // Stoppar Link från att triggas
+          addToCart(product); // Lägg till i context
+          }} >Lägg i varukorgen</button>
         </div>
         
       </div>

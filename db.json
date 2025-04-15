@@ -408,235 +408,76 @@
   ],
   "users": [
     {
-      "id": "3fa8",
-      "firstName": "jerker",
-      "lastName": "danielsson",
-      "email": "jerker_danielsson@hotmail.com",
+      "id": "5fb2",
+      "firstName": "mats",
+      "lastName": "rubarth",
+      "email": "mats@mail.se",
       "password": "password"
-    },
-    {
-      "id": "6640",
-      "firstName": "Mats",
-      "lastName": "Rubarth",
-      "email": "mats.rubarth@mail.com",
-      "password": "lösenord"
-    },
-    {
-      "id": "6897",
-      "firstName": "fet",
-      "lastName": "mats",
-      "email": "fet-mats@mail.se",
-      "password": "fetmats"
-    },
-    {
-      "id": "c3db",
-      "firstName": "Natalie",
-      "lastName": "Sundgren",
-      "email": "natalie.sundgren@hotmail.se",
-      "password": "lösenord"
     }
   ],
   "orders": [
     {
-      "id": "fbcb",
+      "id": "57c5",
       "user": {
-        "firstName": "jerker",
-        "lastName": "danielsson",
-        "email": "jerker_danielsson@hotmail.com",
-        "adress": "kvickrotsgrän 102",
-        "zipCode": "16576",
-        "city": "Hässelby"
+        "firstName": "mats",
+        "lastName": "rubarth",
+        "email": "mats@mail.se",
+        "adress": "",
+        "zipCode": "",
+        "city": ""
       },
       "items": [
         {
-          "id": "13",
-          "brand": "Philips Hue",
-          "brandIcon": "Hue",
-          "title": "Startpaket: 3 st E27",
-          "description": "ljuskällor (1100lm)",
-          "price": 1959,
-          "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
-          "more": "",
+          "id": "16",
+          "brand": "Somfy",
+          "brandIcon": "Somfy",
+          "title": "Somfy Indoor Camera",
+          "description": "Smart IP-kamera",
+          "price": 8990,
+          "info": "Somfy Indoor Camera är en smart och lättinstallerad inomhuskamera med många funktioner. Inbyggd rörelsesensorn ser till att full HD-kameran (1080p) startar inspelning så snart något händer. Somfy Indoor Camera har dessutom ett unikt motoriserat linsskydd som skyddar din integritet.",
+          "more": "Alla filmklipp som kameran spelar in så snart den upptäcker rörelse lagras säkert i molnet (kan även spara till Dropbox, Google Drive eller Microsoft OneDrive). Dessa 30 sekunders fria filmklipp är tillgängliga i 7 dagar. När kameran detekterar rörelse skickas en pushnotis omedelbart till din smartphone. Du kan se vad som händer i realtid och gå tillbaka i tidslinjen för att se eventuella tidigare händelser. Det går också att ta bilder i appen med kameran som lagras på din smartphone",
           "inStock": true,
           "category": [
-            "Paket",
-            "Belysning",
-            "Lampor",
+            "Säkerhet",
+            "Larm",
             "Alla Produkter"
           ],
           "tags": [
-            "lampa",
-            "ambiant",
-            "utomhus"
+            "larm",
+            "säkerhet",
+            "kamera"
           ],
           "room": "utomhus",
-          "searchableText": "philips hue lampa light smartlampa",
-          "image": "/lamppaket.png"
-        }
-      ],
-      "total": 1959,
-      "date": "2025-04-11T11:34:27.405Z"
-    },
-    {
-      "id": "83c4",
-      "user": {
-        "firstName": "jerker",
-        "lastName": "danielsson",
-        "email": "jerker_danielsson@hotmail.com",
-        "adress": "kvickortsgrän 102",
-        "zipCode": "123123",
-        "city": "sthlm"
-      },
-      "items": [
+          "searchableText": "somfy säkerhet kamera",
+          "image": "/somfy.png"
+        },
         {
-          "id": "3",
-          "brand": "Sonos",
-          "brandIcon": "sonos",
-          "title": "Era 300",
-          "description": "En förstklassig smart högtalare,",
-          "price": 5999,
-          "info": "Med Era 300 får du förstklassigt ljud från alla håll...",
-          "more": "Kom ännu närmare allt du lyssnar på...",
+          "id": "16",
+          "brand": "Somfy",
+          "brandIcon": "Somfy",
+          "title": "Somfy Indoor Camera",
+          "description": "Smart IP-kamera",
+          "price": 8990,
+          "info": "Somfy Indoor Camera är en smart och lättinstallerad inomhuskamera med många funktioner. Inbyggd rörelsesensorn ser till att full HD-kameran (1080p) startar inspelning så snart något händer. Somfy Indoor Camera har dessutom ett unikt motoriserat linsskydd som skyddar din integritet.",
+          "more": "Alla filmklipp som kameran spelar in så snart den upptäcker rörelse lagras säkert i molnet (kan även spara till Dropbox, Google Drive eller Microsoft OneDrive). Dessa 30 sekunders fria filmklipp är tillgängliga i 7 dagar. När kameran detekterar rörelse skickas en pushnotis omedelbart till din smartphone. Du kan se vad som händer i realtid och gå tillbaka i tidslinjen för att se eventuella tidigare händelser. Det går också att ta bilder i appen med kameran som lagras på din smartphone",
           "inStock": true,
           "category": [
-            "Underhållning",
-            "Högtalare",
+            "Säkerhet",
+            "Larm",
             "Alla Produkter"
           ],
           "tags": [
-            "wifi",
-            "bluetooth",
-            "dolby atmos",
-            "surround"
-          ],
-          "room": "vardagsrum",
-          "searchableText": "sonos era 300 högtalare dolby atmos smart wifi bluetooth surround ljud vardagsrum",
-          "image": "/era300.png"
-        }
-      ],
-      "total": 5999,
-      "date": "2025-04-11T11:38:14.801Z"
-    },
-    {
-      "id": "85a5",
-      "user": {
-        "firstName": "jerker",
-        "lastName": "danielsson",
-        "email": "jerker_danielsson@hotmail.com",
-        "adress": "asda",
-        "zipCode": "322332",
-        "city": "assdads"
-      },
-      "items": [
-        {
-          "id": "13",
-          "brand": "Philips Hue",
-          "brandIcon": "Hue",
-          "title": "Startpaket: 3 st E27",
-          "description": "ljuskällor (1100lm)",
-          "price": 1959,
-          "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
-          "more": "",
-          "inStock": true,
-          "category": [
-            "Paket",
-            "Belysning",
-            "Lampor",
-            "Alla Produkter"
-          ],
-          "tags": [
-            "lampa",
-            "ambiant",
-            "utomhus"
+            "larm",
+            "säkerhet",
+            "kamera"
           ],
           "room": "utomhus",
-          "searchableText": "philips hue lampa light smartlampa",
-          "image": "/lamppaket.png"
+          "searchableText": "somfy säkerhet kamera",
+          "image": "/somfy.png"
         }
       ],
-      "total": 1959,
-      "date": "2025-04-11T11:38:55.654Z"
-    },
-    {
-      "id": "3e56",
-      "user": {
-        "firstName": "jerker",
-        "lastName": "danielsson",
-        "email": "jerker_danielsson@hotmail.com",
-        "adress": "sadas",
-        "zipCode": "980",
-        "city": "sthlm"
-      },
-      "items": [
-        {
-          "id": "13",
-          "brand": "Philips Hue",
-          "brandIcon": "Hue",
-          "title": "Startpaket: 3 st E27",
-          "description": "ljuskällor (1100lm)",
-          "price": 1959,
-          "info": "Skaffa stämningsbelysning i alla rum med startpaketet Philips Hue White and Color Ambiance. Paketet innehåller tre smarta färgljuskällor och en Hue Bridge som ger dig fullständig kontroll över din belysning, åtkomst till Hue-appen och oändligt många funktioner.",
-          "more": "",
-          "inStock": true,
-          "category": [
-            "Paket",
-            "Belysning",
-            "Lampor",
-            "Alla Produkter"
-          ],
-          "tags": [
-            "lampa",
-            "ambiant",
-            "utomhus"
-          ],
-          "room": "utomhus",
-          "searchableText": "philips hue lampa light smartlampa",
-          "image": "/lamppaket.png"
-        }
-      ],
-      "total": 1959,
-      "date": "2025-04-11T11:39:24.808Z"
-    },
-    {
-      "id": "8d87",
-      "user": {
-        "firstName": "jerker",
-        "lastName": "danielsson",
-        "email": "jerker_danielsson@hotmail.com",
-        "adress": "addsd",
-        "zipCode": "909",
-        "city": "asdadsa"
-      },
-      "items": [
-        {
-          "id": "6",
-          "brand": "Sonos",
-          "brandIcon": "sonos",
-          "title": "Ace",
-          "description": "Hörlurar",
-          "price": 4699,
-          "info": "Omsorgsfullt designade och mästerligt justerade...",
-          "more": "Upplev varje frekvens med överlägsen precision...",
-          "inStock": true,
-          "category": [
-            "Underhållning",
-            "Högtalare",
-            "Alla Produkter"
-          ],
-          "tags": [
-            "bluetooth",
-            "usb-c",
-            "3.5mm",
-            "brusreducering",
-            "lossless"
-          ],
-          "room": "på språng",
-          "searchableText": "sonos ace hörlurar bluetooth usb-c 3.5mm lossless brusreducering",
-          "image": "/ace.png"
-        }
-      ],
-      "total": 4699,
-      "date": "2025-04-11T11:40:04.425Z"
+      "total": 17980,
+      "date": "2025-04-14T11:47:47.374Z"
     }
   ]
 }

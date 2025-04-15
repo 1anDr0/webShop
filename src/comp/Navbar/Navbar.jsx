@@ -16,7 +16,7 @@ const Navbar = () => {
   const { cartItems } = useCart();
   const cartCount = cartItems.length;
 
-  const { user, isLoggedIn, logout } = useAuth();
+  const { isLoggedIn, logout } = useAuth();
 
 
   return (
@@ -42,17 +42,18 @@ const Navbar = () => {
     <button
       onClick={logout}
       className="text-2xl hover:opacity-70 text-brandgold"
-    >
-      <BiUser />
+    > <BiUser />
     </button>
-  </li>
-) : (
+     </li>
+
+   ) : (
+
   <li className="relative">
     <Link to="/login" className="text-2xl hover:opacity-70 text-black">
       <BiUser />
     </Link>
   </li>
-)}
+   )}
 
         <li className="relative">
          <Link to="/cart">

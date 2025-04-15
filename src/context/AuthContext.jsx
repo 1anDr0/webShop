@@ -1,10 +1,10 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 
-const AuthContext = createContext();
+const AuthContext = createContext();  
 
-// Provider
 export const AuthContextProvider = ({ children }) => {
+
   const [user, setUser] = useState(() => {
     const storedUser = localStorage.getItem("user");
     return storedUser ? JSON.parse(storedUser) : null;
