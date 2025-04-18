@@ -7,6 +7,7 @@ export default {
       },
       colors: {
         brandturkos: "#13505B",
+        brandlightturkos: "#119DA4",
         lightgrey: "#F7F7F7",
         brandgold: "#FFBB00",
       },
